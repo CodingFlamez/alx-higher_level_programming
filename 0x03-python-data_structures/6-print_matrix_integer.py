@@ -5,5 +5,7 @@ def print_matrix_integer(matrix=[[]]):
     for x in range(b):
         a = len(matrix[x])
         for y in range(a):
-            print("{:d}".format(matrix[x][y]), end=' ')
-        print()
+            if y < (a-1):
+                print("{:d}".format(matrix[x][y]), end=' ')
+            else:
+                print("{:d}".format(matrix[x][y]))
