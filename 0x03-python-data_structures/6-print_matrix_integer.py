@@ -8,5 +8,5 @@ def print_matrix_integer(matrix=[[]]):
             if y < (a-1):
                 print("{:d}".format(matrix[x][y]), end=' ')
             else:
-                print("{:d}".format(matrix[x][y]))
-   print()
+                print("{:d}".format(matrix[x][y]), end='')
+        print()
