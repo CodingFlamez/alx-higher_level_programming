@@ -10,4 +10,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
         for x in range(len_b, 2):
             tuple_b += (0,)
     a = [x + y for x, y in zip(tuple_a, tuple_b)]
-    return tuple(a)
+    return tuple(a[:2])
